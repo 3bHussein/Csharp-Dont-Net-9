@@ -1,0 +1,14 @@
+/Users/3bhussein/Library/Mobile Documents/com~apple~CloudDocs/Programming /C#/ConsoleApp1/bin/Debug/net9.0/ConsoleApp1
+/Users/3bhussein/Library/Mobile Documents/com~apple~CloudDocs/Programming /C#/ConsoleApp1/bin/Debug/net9.0/ConsoleApp1.deps.json
+/Users/3bhussein/Library/Mobile Documents/com~apple~CloudDocs/Programming /C#/ConsoleApp1/bin/Debug/net9.0/ConsoleApp1.runtimeconfig.json
+/Users/3bhussein/Library/Mobile Documents/com~apple~CloudDocs/Programming /C#/ConsoleApp1/bin/Debug/net9.0/ConsoleApp1.dll
+/Users/3bhussein/Library/Mobile Documents/com~apple~CloudDocs/Programming /C#/ConsoleApp1/bin/Debug/net9.0/ConsoleApp1.pdb
+/Users/3bhussein/Library/Mobile Documents/com~apple~CloudDocs/Programming /C#/ConsoleApp1/obj/Debug/net9.0/ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/3bhussein/Library/Mobile Documents/com~apple~CloudDocs/Programming /C#/ConsoleApp1/obj/Debug/net9.0/ConsoleApp1.AssemblyInfoInputs.cache
+/Users/3bhussein/Library/Mobile Documents/com~apple~CloudDocs/Programming /C#/ConsoleApp1/obj/Debug/net9.0/ConsoleApp1.AssemblyInfo.cs
+/Users/3bhussein/Library/Mobile Documents/com~apple~CloudDocs/Programming /C#/ConsoleApp1/obj/Debug/net9.0/ConsoleApp1.csproj.CoreCompileInputs.cache
+/Users/3bhussein/Library/Mobile Documents/com~apple~CloudDocs/Programming /C#/ConsoleApp1/obj/Debug/net9.0/ConsoleApp1.dll
+/Users/3bhussein/Library/Mobile Documents/com~apple~CloudDocs/Programming /C#/ConsoleApp1/obj/Debug/net9.0/refint/ConsoleApp1.dll
+/Users/3bhussein/Library/Mobile Documents/com~apple~CloudDocs/Programming /C#/ConsoleApp1/obj/Debug/net9.0/ConsoleApp1.pdb
+/Users/3bhussein/Library/Mobile Documents/com~apple~CloudDocs/Programming /C#/ConsoleApp1/obj/Debug/net9.0/ConsoleApp1.genruntimeconfig.cache
+/Users/3bhussein/Library/Mobile Documents/com~apple~CloudDocs/Programming /C#/ConsoleApp1/obj/Debug/net9.0/ref/ConsoleApp1.dll
