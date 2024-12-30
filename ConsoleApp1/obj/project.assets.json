@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/3bhussein/Library/Mobile Documents/com~apple~CloudDocs/Programming /C#/ConsoleApp1/ConsoleApp1.csproj",
+      "projectUniqueName": "/Users/3bhussein/Library/Mobile Documents/com~apple~CloudDocs/Programming /C-.NET-with-MS-SQL-Complete-Beginner-to-Master-2024/ConsoleApp1/ConsoleApp1.csproj",
       "projectName": "ConsoleApp1",
-      "projectPath": "/Users/3bhussein/Library/Mobile Documents/com~apple~CloudDocs/Programming /C#/ConsoleApp1/ConsoleApp1.csproj",
+      "projectPath": "/Users/3bhussein/Library/Mobile Documents/com~apple~CloudDocs/Programming /C-.NET-with-MS-SQL-Complete-Beginner-to-Master-2024/ConsoleApp1/ConsoleApp1.csproj",
       "packagesPath": "/Users/3bhussein/.nuget/packages/",
-      "outputPath": "/Users/3bhussein/Library/Mobile Documents/com~apple~CloudDocs/Programming /C#/ConsoleApp1/obj/",
+      "outputPath": "/Users/3bhussein/Library/Mobile Documents/com~apple~CloudDocs/Programming /C-.NET-with-MS-SQL-Complete-Beginner-to-Master-2024/ConsoleApp1/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/3bhussein/.nuget/NuGet/NuGet.Config"
