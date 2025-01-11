@@ -5,7 +5,3 @@
 // Console.WriteLine("C# Programmer i'm back to C# i love MicroSoft");
 
 Console.WriteLine(args[0]);
-
-
-
-
