@@ -85,4 +85,3 @@ name=Console.ReadLine();
 
 // Console.ReadLine();
 System.Console.WriteLine("hello"+name);
-// 
