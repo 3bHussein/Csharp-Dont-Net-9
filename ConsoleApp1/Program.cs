@@ -81,13 +81,25 @@ string name ="";
 
 
 // System.Console.WriteLine("hello"+name);
-name=Console.ReadLine();
+// name=Console.ReadLine();
 
 // Console.ReadLine();
 
-System.Console.WriteLine("hello"+name);
 
 
-System.Console.WriteLine("hello"+name);
-webdatareviewer
 
+// System.Console.WriteLine("hello"+name);
+// webdatareviewer
+
+string[] my_array=new string[2];
+my_array[0]="hello";
+// Console.WriteLine(my_array[0]);
+
+
+string[] try_again=new string[4];
+
+
+try_again[1]="ahmed";
+
+try_again[3]="ali";
+System.Console.WriteLine("you name is "+ try_again[1]);
