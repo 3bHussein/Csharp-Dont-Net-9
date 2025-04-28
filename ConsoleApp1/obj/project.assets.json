@@ -8,24 +8,31 @@
     "net9.0": []
   },
   "packageFolders": {
-    "/Users/3bhussein/.nuget/packages/": {}
+    "C:\\Users\\elhus\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/3bhussein/Library/Mobile Documents/com~apple~CloudDocs/Programming /C-.NET-with-MS-SQL-Complete-Beginner-to-Master-2024/ConsoleApp1/ConsoleApp1.csproj",
+      "projectUniqueName": "D:\\Code\\C#\\Csharp-Dont-Net-9\\ConsoleApp1\\ConsoleApp1.csproj",
       "projectName": "ConsoleApp1",
-      "projectPath": "/Users/3bhussein/Library/Mobile Documents/com~apple~CloudDocs/Programming /C-.NET-with-MS-SQL-Complete-Beginner-to-Master-2024/ConsoleApp1/ConsoleApp1.csproj",
-      "packagesPath": "/Users/3bhussein/.nuget/packages/",
-      "outputPath": "/Users/3bhussein/Library/Mobile Documents/com~apple~CloudDocs/Programming /C-.NET-with-MS-SQL-Complete-Beginner-to-Master-2024/ConsoleApp1/obj/",
+      "projectPath": "D:\\Code\\C#\\Csharp-Dont-Net-9\\ConsoleApp1\\ConsoleApp1.csproj",
+      "packagesPath": "C:\\Users\\elhus\\.nuget\\packages\\",
+      "outputPath": "D:\\Code\\C#\\Csharp-Dont-Net-9\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/3bhussein/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\elhus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -44,7 +51,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.100"
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net9.0": {
@@ -65,7 +72,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

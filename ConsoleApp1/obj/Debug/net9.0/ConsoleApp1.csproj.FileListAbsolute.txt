@@ -27,3 +27,18 @@
 /Users/3bhussein/Library/Mobile Documents/com~apple~CloudDocs/Programming /C-.NET-with-MS-SQL-Complete-Beginner-to-Master-2024/ConsoleApp1/obj/Debug/net9.0/ConsoleApp1.pdb
 /Users/3bhussein/Library/Mobile Documents/com~apple~CloudDocs/Programming /C-.NET-with-MS-SQL-Complete-Beginner-to-Master-2024/ConsoleApp1/obj/Debug/net9.0/ConsoleApp1.genruntimeconfig.cache
 /Users/3bhussein/Library/Mobile Documents/com~apple~CloudDocs/Programming /C-.NET-with-MS-SQL-Complete-Beginner-to-Master-2024/ConsoleApp1/obj/Debug/net9.0/ref/ConsoleApp1.dll
+D:\Code\C#\Csharp-Dont-Net-9\ConsoleApp1\bin\Debug\net9.0\ConsoleApp1.exe
+D:\Code\C#\Csharp-Dont-Net-9\ConsoleApp1\bin\Debug\net9.0\ConsoleApp1.deps.json
+D:\Code\C#\Csharp-Dont-Net-9\ConsoleApp1\bin\Debug\net9.0\ConsoleApp1.runtimeconfig.json
+D:\Code\C#\Csharp-Dont-Net-9\ConsoleApp1\bin\Debug\net9.0\ConsoleApp1.dll
+D:\Code\C#\Csharp-Dont-Net-9\ConsoleApp1\bin\Debug\net9.0\ConsoleApp1.pdb
+D:\Code\C#\Csharp-Dont-Net-9\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\C#\Csharp-Dont-Net-9\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.AssemblyInfoInputs.cache
+D:\Code\C#\Csharp-Dont-Net-9\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.AssemblyInfo.cs
+D:\Code\C#\Csharp-Dont-Net-9\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+D:\Code\C#\Csharp-Dont-Net-9\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.sourcelink.json
+D:\Code\C#\Csharp-Dont-Net-9\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.dll
+D:\Code\C#\Csharp-Dont-Net-9\ConsoleApp1\obj\Debug\net9.0\refint\ConsoleApp1.dll
+D:\Code\C#\Csharp-Dont-Net-9\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.pdb
+D:\Code\C#\Csharp-Dont-Net-9\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.genruntimeconfig.cache
+D:\Code\C#\Csharp-Dont-Net-9\ConsoleApp1\obj\Debug\net9.0\ref\ConsoleApp1.dll
