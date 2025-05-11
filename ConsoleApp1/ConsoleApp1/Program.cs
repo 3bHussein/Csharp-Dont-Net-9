@@ -35,12 +35,13 @@ namespace ConsoleApp1
                 );
 
 
-            int mark = 0;
+            int mark = 60;
 
             Console.WriteLine("enter your mar");
            
-            string s = Console.ReadLine();
-            mark = int (s);
+            //string s = Console.ReadLine();
+            //mark.ToString();
+             
 
             //if statement
             if (mark >50)
@@ -48,6 +49,7 @@ namespace ConsoleApp1
                 Console.WriteLine("your mark is wow "+mark);
 
             }
+            Console.ReadLine();
         }
 
 
