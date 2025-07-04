@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Code\\C#\\Csharp-Dont-Net-9\\GarageServiceApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Code\\C#\\Csharp-Dont-Net-9\\GarageServiceApp\\GarageServiceApp\\Migrations\\20250704153836_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:GarageServiceApp\\Migrations\\20250704153836_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC9C212C-F609-4A73-99AA-73C992D76EDF}|GarageServiceApp\\GarageServiceApp.csproj|d:\\code\\c#\\csharp-dont-net-9\\garageserviceapp\\garageserviceapp\\controllers\\servicereceivedscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC9C212C-F609-4A73-99AA-73C992D76EDF}|GarageServiceApp\\GarageServiceApp.csproj|solutionrelative:garageserviceapp\\controllers\\servicereceivedscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC9C212C-F609-4A73-99AA-73C992D76EDF}|GarageServiceApp\\GarageServiceApp.csproj|d:\\code\\c#\\csharp-dont-net-9\\garageserviceapp\\garageserviceapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BC9C212C-F609-4A73-99AA-73C992D76EDF}|GarageServiceApp\\GarageServiceApp.csproj|solutionrelative:garageserviceapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC9C212C-F609-4A73-99AA-73C992D76EDF}|GarageServiceApp\\GarageServiceApp.csproj|d:\\code\\c#\\csharp-dont-net-9\\garageserviceapp\\garageserviceapp\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC9C212C-F609-4A73-99AA-73C992D76EDF}|GarageServiceApp\\GarageServiceApp.csproj|solutionrelative:garageserviceapp\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC9C212C-F609-4A73-99AA-73C992D76EDF}|GarageServiceApp\\GarageServiceApp.csproj|d:\\code\\c#\\csharp-dont-net-9\\garageserviceapp\\garageserviceapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC9C212C-F609-4A73-99AA-73C992D76EDF}|GarageServiceApp\\GarageServiceApp.csproj|solutionrelative:garageserviceapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC9C212C-F609-4A73-99AA-73C992D76EDF}|GarageServiceApp\\GarageServiceApp.csproj|d:\\code\\c#\\csharp-dont-net-9\\garageserviceapp\\garageserviceapp\\models\\servicereceived.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC9C212C-F609-4A73-99AA-73C992D76EDF}|GarageServiceApp\\GarageServiceApp.csproj|solutionrelative:garageserviceapp\\models\\servicereceived.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC9C212C-F609-4A73-99AA-73C992D76EDF}|GarageServiceApp\\GarageServiceApp.csproj|d:\\code\\c#\\csharp-dont-net-9\\garageserviceapp\\garageserviceapp\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC9C212C-F609-4A73-99AA-73C992D76EDF}|GarageServiceApp\\GarageServiceApp.csproj|solutionrelative:garageserviceapp\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20250704153836_InitialCreate.cs",
+              "DocumentMoniker": "D:\\Code\\C#\\Csharp-Dont-Net-9\\GarageServiceApp\\GarageServiceApp\\Migrations\\20250704153836_InitialCreate.cs",
+              "RelativeDocumentMoniker": "GarageServiceApp\\Migrations\\20250704153836_InitialCreate.cs",
+              "ToolTip": "D:\\Code\\C#\\Csharp-Dont-Net-9\\GarageServiceApp\\GarageServiceApp\\Migrations\\20250704153836_InitialCreate.cs",
+              "RelativeToolTip": "GarageServiceApp\\Migrations\\20250704153836_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T15:38:36.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ServiceReceivedsController.cs",
+              "DocumentMoniker": "D:\\Code\\C#\\Csharp-Dont-Net-9\\GarageServiceApp\\GarageServiceApp\\Controllers\\ServiceReceivedsController.cs",
+              "RelativeDocumentMoniker": "GarageServiceApp\\Controllers\\ServiceReceivedsController.cs",
+              "ToolTip": "D:\\Code\\C#\\Csharp-Dont-Net-9\\GarageServiceApp\\GarageServiceApp\\Controllers\\ServiceReceivedsController.cs",
+              "RelativeToolTip": "GarageServiceApp\\Controllers\\ServiceReceivedsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T15:38:21.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Code\\C#\\Csharp-Dont-Net-9\\GarageServiceApp\\GarageServiceApp\\appsettings.json",
+              "RelativeDocumentMoniker": "GarageServiceApp\\appsettings.json",
+              "ToolTip": "D:\\Code\\C#\\Csharp-Dont-Net-9\\GarageServiceApp\\GarageServiceApp\\appsettings.json",
+              "RelativeToolTip": "GarageServiceApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-04T15:37:37.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "D:\\Code\\C#\\Csharp-Dont-Net-9\\GarageServiceApp\\GarageServiceApp\\Controllers\\CustomersController.cs",
+              "RelativeDocumentMoniker": "GarageServiceApp\\Controllers\\CustomersController.cs",
+              "ToolTip": "D:\\Code\\C#\\Csharp-Dont-Net-9\\GarageServiceApp\\GarageServiceApp\\Controllers\\CustomersController.cs",
+              "RelativeToolTip": "GarageServiceApp\\Controllers\\CustomersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T15:37:18.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Code\\C#\\Csharp-Dont-Net-9\\GarageServiceApp\\GarageServiceApp\\Program.cs",
+              "RelativeDocumentMoniker": "GarageServiceApp\\Program.cs",
+              "ToolTip": "D:\\Code\\C#\\Csharp-Dont-Net-9\\GarageServiceApp\\GarageServiceApp\\Program.cs",
+              "RelativeToolTip": "GarageServiceApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAC/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T15:36:27.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ServiceReceived.cs",
+              "DocumentMoniker": "D:\\Code\\C#\\Csharp-Dont-Net-9\\GarageServiceApp\\GarageServiceApp\\Models\\ServiceReceived.cs",
+              "RelativeDocumentMoniker": "GarageServiceApp\\Models\\ServiceReceived.cs",
+              "ToolTip": "D:\\Code\\C#\\Csharp-Dont-Net-9\\GarageServiceApp\\GarageServiceApp\\Models\\ServiceReceived.cs",
+              "RelativeToolTip": "GarageServiceApp\\Models\\ServiceReceived.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAUwC0AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T15:34:46.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\Code\\C#\\Csharp-Dont-Net-9\\GarageServiceApp\\GarageServiceApp\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "GarageServiceApp\\Models\\Customer.cs",
+              "ToolTip": "D:\\Code\\C#\\Csharp-Dont-Net-9\\GarageServiceApp\\GarageServiceApp\\Models\\Customer.cs",
+              "RelativeToolTip": "GarageServiceApp\\Models\\Customer.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwA0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T15:34:11.517Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
