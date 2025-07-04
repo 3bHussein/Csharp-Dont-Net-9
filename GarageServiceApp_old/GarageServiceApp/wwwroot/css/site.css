@@ -1,0 +1,75 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+/*4/7/2025 5:56PM */
+/**/
+.dashboard {
+/*    background: linear-gradient(to bottom right, #2d6a4f, #52b788);*/
+    min-height: 100vh;
+    padding-top: 2rem;
+}
+
+.summary-card {
+    border: none;
+    border-radius: 0.75rem;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+    text-align: center;
+}
+
+.bg-gradient-blue {
+    background: linear-gradient(45deg, #4facfe, #00f2fe);
+}
+
+.bg-gradient-green {
+    background: linear-gradient(45deg, #43e97b, #38f9d7);
+}
+
+/* Add more gradient classes for other cards */
+
+.chart-card {
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+    background: white;
+}
+
+    .chart-card .card-title {
+        font-weight: 600;
+        margin-bottom: 1rem;
+    }
+
+/**/
+/*footer improve*/
+.footer-custom {
+    background: linear-gradient(45deg, #4facfe, #00f2fe);
+    box-shadow: 0 -0.25rem 1rem rgba(0,0,0,0.2);
+}
+
+    .footer-custom a:hover {
+        text-decoration: none;
+        color: #f1f1f1;
+    }
+
+    .footer-custom div {
+        font-size: 0.9rem;
+    }

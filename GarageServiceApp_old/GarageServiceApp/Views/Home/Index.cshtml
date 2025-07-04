@@ -1,0 +1,102 @@
+﻿@{
+    ViewData["Title"] = "Index";
+
+}
+
+<div class="container-fluid dashboard">
+    <!-- TOP SUMMARY CARDS -->
+    <div class="row g-4 mb-4">
+        <div class="col-6 col-md-4 col-lg-2">
+            <div class="card summary-card bg-gradient-blue">
+                <div class="card-body text-white">
+                    @* <h4>25,610.00</h4> *@
+                    @* <h4 class="mb-1">@ViewBag.TotalCustomers.ToString("N0")</h4> *@
+
+                    <p>Total Customers</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+            <div class="card summary-card bg-gradient-green">
+                <div class="card-body text-white">
+                    <h4>100,058.00</h4>
+                    <p>Customer Outstanding</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+            <div class="card summary-card bg-gradient-orange">
+                <div class="card-body text-white">
+                    <h4>278,226.19</h4>
+                    <p>Total Stock Value</p>
+                </div>
+            </div>
+        </div>
+        <!-- Add more summary cards as needed -->
+    </div>
+
+    <!-- CHARTS SECTION -->
+    <div class="row g-4">
+        <div class="col-lg-8">
+            <div class="card chart-card">
+                <div class="card-body">
+                    <h5 class="card-title">Salesman Wise Period - 2025</h5>
+                    <canvas id="salesChart" height="300"></canvas>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="card chart-card">
+                <div class="card-body">
+                    <h5 class="card-title">Department Wise Sales</h5>
+                    <canvas id="departmentChart" height="300"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        // Salesman Chart
+        const ctx = document.getElementById('salesChart').getContext('2d');
+        new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['Text', 'Text', 'Text', 'Text'],
+                datasets: [{
+                    label: 'Sales',
+                    data: [10000, 7000, 4000, 4200],
+                    backgroundColor: ['#ff6b6b', '#1dd1a1', '#54a0ff', '#feca57']
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: { legend: { display: false } },
+                scales: {
+                    y: { beginAtZero: true }
+                }
+            }
+        });
+
+        // Department Pie Chart
+        const ctxPie = document.getElementById('departmentChart').getContext('2d');
+        new Chart(ctxPie, {
+            type: 'pie',
+            data: {
+                labels: ['Text', 'Text', 'Text'],
+                datasets: [{
+                    data: [100, 0, 0],
+                    backgroundColor: ['#3498db', '#2ecc71', '#f1c40f']
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: { position: 'bottom' }
+                }
+            }
+        });
+    </script>
+}

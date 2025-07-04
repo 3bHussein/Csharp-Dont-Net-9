@@ -1,0 +1,123 @@
+﻿@model GarageServiceApp.Models.Customer
+
+@{
+    ViewData["Title"] = "Create Customer";
+}
+
+<h1 class="mb-4">Create Customer</h1>
+
+<form asp-action="Create" class="needs-validation" novalidate>
+    <div class="card mb-4 p-4 shadow-sm">
+        <h5 class="mb-3">Personal Information</h5>
+        <div class="row g-3">
+            <div class="col-md-6">
+                <div class="form-floating">
+                    <input asp-for="FirstName" class="form-control" id="FirstName" placeholder="First Name" required />
+                    <label for="FirstName">First Name</label>
+                    <div class="invalid-feedback">
+                        Please enter a first name.
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-floating">
+                    <input asp-for="LastName" class="form-control" id="LastName" placeholder="Last Name" required />
+                    <label for="LastName">Last Name</label>
+                    <div class="invalid-feedback">
+                        Please enter a last name.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card mb-4 p-4 shadow-sm">
+        <h5 class="mb-3">Contact Details</h5>
+        <div class="row g-3">
+            <div class="col-md-6">
+                <div class="form-floating">
+                    <input asp-for="Email" type="email" class="form-control" id="Email" placeholder="name@example.com" required />
+                    <label for="Email">Email address</label>
+                    <div class="invalid-feedback">
+                        Please provide a valid email address.
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-floating">
+                    <input asp-for="Phone" type="tel" class="form-control" id="Phone" placeholder="Phone number" />
+                    <label for="Phone">Phone</label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card mb-4 p-4 shadow-sm">
+        <h5 class="mb-3">Address</h5>
+        <div class="row g-3">
+            <div class="col-12">
+                <div class="form-floating">
+                    <input asp-for="Address" class="form-control" id="Address" placeholder="Street Address" />
+                    <label for="Address">Address</label>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-floating">
+                    <input asp-for="City" class="form-control" id="City" placeholder="City" />
+                    <label for="City">City</label>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-floating">
+                    <input asp-for="PostalCode" class="form-control" id="PostalCode" placeholder="Postal Code" />
+                    <label for="PostalCode">Postal Code</label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card mb-4 p-4 shadow-sm">
+        <h5 class="mb-3">Status</h5>
+        <div class="form-check form-switch mb-3">
+            <input asp-for="IsActive" class="form-check-input" id="IsActive" />
+            <label class="form-check-label" for="IsActive">@Html.DisplayNameFor(m => m.IsActive)</label>
+        </div>
+
+        <div class="row g-3">
+            <div class="col-md-6">
+                <label asp-for="CreatedDate" class="form-label"></label>
+                <input asp-for="CreatedDate" type="datetime-local" class="form-control"  />
+            </div>
+          
+        </div>
+    </div>
+
+    <div class="d-flex justify-content-between">
+        <a asp-action="Index" class="btn btn-outline-secondary">Cancel</a>
+        <button type="submit" class="btn btn-primary">Create</button>
+    </div>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script>
+        // Bootstrap validation example
+        (function () {
+            'use strict'
+            var forms = document.querySelectorAll('.needs-validation')
+            Array.prototype.slice.call(forms)
+                .forEach(function (form) {
+                    form.addEventListener('submit', function (event) {
+                        if (!form.checkValidity()) {
+                            event.preventDefault()
+                            event.stopPropagation()
+                        }
+                        form.classList.add('was-validated')
+                    }, false)
+                })
+        })()
+    </script>
+}
