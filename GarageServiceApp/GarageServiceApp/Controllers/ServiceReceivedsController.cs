@@ -57,7 +57,7 @@ namespace GarageServiceApp.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,CustomerId,CarModel,LicensePlate,VIN,StateBeforeRepair,CustomerComplaint,Status,EstimatedCost,ReceivedDate,Notes")] ServiceReceived serviceReceived)
+        public async Task<IActionResult> Create([FromForm] ServiceReceived serviceReceived)
         {
             if (ModelState.IsValid)
             {

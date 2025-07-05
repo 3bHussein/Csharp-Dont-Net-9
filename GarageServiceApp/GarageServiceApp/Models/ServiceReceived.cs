@@ -12,7 +12,7 @@ namespace GarageServiceApp.Models
         public int CustomerId { get; set; }
 
         [ForeignKey("CustomerId")]
-        public virtual Customer Customer { get; set; }
+        public  Customer? Customer { get; set; }
 
         [Required]
         [StringLength(20)]
