@@ -71,8 +71,7 @@
               "RelativeToolTip": "GarageServiceApp\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-04T16:02:47.226Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-04T16:02:47.226Z"
             },
             {
               "$type": "Document",
@@ -97,8 +96,7 @@
               "RelativeToolTip": "GarageServiceApp\\Models\\ServiceReceived.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T15:59:44.837Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-04T15:59:44.837Z"
             },
             {
               "$type": "Document",
@@ -110,8 +108,7 @@
               "RelativeToolTip": "GarageServiceApp\\Models\\Customer.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAYwA4AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T15:59:34.239Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-04T15:59:34.239Z"
             }
           ]
         }
