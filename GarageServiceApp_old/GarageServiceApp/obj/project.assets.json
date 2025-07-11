@@ -7601,11 +7601,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code\\C#\\Csharp-Dont-Net-9\\GarageServiceApp\\GarageServiceApp\\GarageServiceApp.csproj",
+      "projectUniqueName": "D:\\Code\\C#\\Csharp-Dont-Net-9\\GarageServiceApp_old\\GarageServiceApp\\GarageServiceApp.csproj",
       "projectName": "GarageServiceApp",
-      "projectPath": "D:\\Code\\C#\\Csharp-Dont-Net-9\\GarageServiceApp\\GarageServiceApp\\GarageServiceApp.csproj",
+      "projectPath": "D:\\Code\\C#\\Csharp-Dont-Net-9\\GarageServiceApp_old\\GarageServiceApp\\GarageServiceApp.csproj",
       "packagesPath": "C:\\Users\\elhus\\.nuget\\packages\\",
-      "outputPath": "D:\\Code\\C#\\Csharp-Dont-Net-9\\GarageServiceApp\\GarageServiceApp\\obj\\",
+      "outputPath": "D:\\Code\\C#\\Csharp-Dont-Net-9\\GarageServiceApp_old\\GarageServiceApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

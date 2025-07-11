@@ -1,0 +1,13 @@
+D:\Code\C#\Csharp-Dont-Net-9\WebApplication4\WebApplication4.ServiceDefaults\bin\Debug\net8.0\WebApplication4.ServiceDefaults.deps.json
+D:\Code\C#\Csharp-Dont-Net-9\WebApplication4\WebApplication4.ServiceDefaults\bin\Debug\net8.0\WebApplication4.ServiceDefaults.dll
+D:\Code\C#\Csharp-Dont-Net-9\WebApplication4\WebApplication4.ServiceDefaults\bin\Debug\net8.0\WebApplication4.ServiceDefaults.pdb
+D:\Code\C#\Csharp-Dont-Net-9\WebApplication4\WebApplication4.ServiceDefaults\obj\Debug\net8.0\WebApplication4.ServiceDefaults.csproj.AssemblyReference.cache
+D:\Code\C#\Csharp-Dont-Net-9\WebApplication4\WebApplication4.ServiceDefaults\obj\Debug\net8.0\WebApplication4.ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\C#\Csharp-Dont-Net-9\WebApplication4\WebApplication4.ServiceDefaults\obj\Debug\net8.0\WebApplication4.ServiceDefaults.AssemblyInfoInputs.cache
+D:\Code\C#\Csharp-Dont-Net-9\WebApplication4\WebApplication4.ServiceDefaults\obj\Debug\net8.0\WebApplication4.ServiceDefaults.AssemblyInfo.cs
+D:\Code\C#\Csharp-Dont-Net-9\WebApplication4\WebApplication4.ServiceDefaults\obj\Debug\net8.0\WebApplication4.ServiceDefaults.csproj.CoreCompileInputs.cache
+D:\Code\C#\Csharp-Dont-Net-9\WebApplication4\WebApplication4.ServiceDefaults\obj\Debug\net8.0\WebApplication4.ServiceDefaults.sourcelink.json
+D:\Code\C#\Csharp-Dont-Net-9\WebApplication4\WebApplication4.ServiceDefaults\obj\Debug\net8.0\WebApplication4.ServiceDefaults.dll
+D:\Code\C#\Csharp-Dont-Net-9\WebApplication4\WebApplication4.ServiceDefaults\obj\Debug\net8.0\refint\WebApplication4.ServiceDefaults.dll
+D:\Code\C#\Csharp-Dont-Net-9\WebApplication4\WebApplication4.ServiceDefaults\obj\Debug\net8.0\WebApplication4.ServiceDefaults.pdb
+D:\Code\C#\Csharp-Dont-Net-9\WebApplication4\WebApplication4.ServiceDefaults\obj\Debug\net8.0\ref\WebApplication4.ServiceDefaults.dll

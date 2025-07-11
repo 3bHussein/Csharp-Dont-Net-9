@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SUSGGClquII=",
+  "dgSpecHash": "b0s1Vg7kyDU=",
   "success": true,
-  "projectFilePath": "D:\\Code\\C#\\Csharp-Dont-Net-9\\GarageServiceApp\\GarageServiceApp\\GarageServiceApp.csproj",
+  "projectFilePath": "D:\\Code\\C#\\Csharp-Dont-Net-9\\GarageServiceApp_old\\GarageServiceApp\\GarageServiceApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\elhus\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\elhus\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
