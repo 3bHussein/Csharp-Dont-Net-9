@@ -16,5 +16,6 @@ namespace WebApplication5.Data
 
         public DbSet<GarageServiceApp.Models.Customer> Customer { get; set; } = default!;
         public DbSet<GarageServiceApp.Models.ServiceReceived> ServiceReceived { get; set; } = default!;
+        public DbSet<GarageServiceApp.Models.ServiceDetail> ServiceDetail { get; set; } = default!;
     }
 }

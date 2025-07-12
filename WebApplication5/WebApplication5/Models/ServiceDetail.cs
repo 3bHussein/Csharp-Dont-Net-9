@@ -12,7 +12,7 @@ namespace GarageServiceApp.Models
         public int ServiceReceivedId { get; set; }
 
         [ForeignKey("ServiceReceivedId")]
-        public virtual ServiceReceived ServiceReceived { get; set; }
+        public virtual ServiceReceived? ServiceReceived { get; set; }
 
 
         [Required]
