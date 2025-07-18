@@ -47,11 +47,16 @@
                 <span asp-validation-for="PostalCode" class="text-danger"></span>
             </div>
 
+            @{
+                var now = DateTime.Now.ToString("yyyy-MM-ddTHH:mm");
+            }
             <div class="col-md-6">
                 <label asp-for="CreatedDate" class="form-label"></label>
-                <input asp-for="CreatedDate" type="date" class="form-control" />
+                <input asp-for="CreatedDate" type="datetime-local" class="form-control" value="@now" />
                 <span asp-validation-for="CreatedDate" class="text-danger"></span>
             </div>
+
+
 
             <div class="col-md-6">
                 <label asp-for="LastUpdated" class="form-label"></label>

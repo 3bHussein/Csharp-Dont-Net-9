@@ -1,16 +1,19 @@
 ﻿@model IEnumerable<GarageServiceApp.Models.ServiceReceived>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "ServiceReceived";
 }
 
-<h1>Index</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h2 class="mb-0">@ViewData["Title"]</h2>
+        <a asp-action="Create" class="btn btn-primary">
+            <i class="bi bi-plus-circle"></i>New Car Received
+        </a>
+    </div>
+    <table class="table table-hover table-striped">
+        <thead class="table-dark">
         <tr>
             <th>
                 @Html.DisplayNameFor(model => model.Customer)
@@ -18,14 +21,11 @@
             <th>
                 @Html.DisplayNameFor(model => model.CarModel)
             </th>
+     
+           
             <th>
-                @Html.DisplayNameFor(model => model.LicensePlate)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.VIN)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.StateBeforeRepair)
+                @* @Html.DisplayNameFor(model => model.StateBeforeRepair) *@
+                BeforeReair
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.CustomerComplaint)
@@ -39,9 +39,7 @@
             <th>
                 @Html.DisplayNameFor(model => model.ReceivedDate)
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Notes)
-            </th>
+          
             <th>
                 @Html.DisplayNameFor(model => model.TechnicianName)
             </th>
@@ -57,12 +55,8 @@
             <td>
                 @Html.DisplayFor(modelItem => item.CarModel)
             </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.LicensePlate)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.VIN)
-            </td>
+      
+           
             <td>
                 @Html.DisplayFor(modelItem => item.StateBeforeRepair)
             </td>
@@ -78,18 +72,23 @@
             <td>
                 @Html.DisplayFor(modelItem => item.ReceivedDate)
             </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Notes)
-            </td>
+         
             <td>
                 @Html.DisplayFor(modelItem => item.TechnicianName)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning me-1">Edit</a>
+                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-info me-1">Details</a>
+                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger">Delete</a>
             </td>
         </tr>
 }
     </tbody>
 </table>
+    @if (!Model.Any())
+    {
+        <div class="alert alert-info mt-3">No customers found. Click "Create New Customer" to add one.</div>
+    }
+
+
+</div>
