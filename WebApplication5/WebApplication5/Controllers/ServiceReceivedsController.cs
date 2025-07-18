@@ -155,6 +155,44 @@ namespace WebApplication5.Controllers
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
+        [HttpPost]
+        public async Task<IActionResult> UploadPhoto(int serviceReceivedId, IFormFile photo, string photoDescription, string photoType, string takenBy)
+        {
+            if (photo != null && photo.Length > 0)
+            {
+                var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "uploads");
+                Directory.CreateDirectory(uploadsFolder);
+
+                var fileName = Guid.NewGuid().ToString() + Path.GetExtension(photo.FileName);
+                var filePath = Path.Combine(uploadsFolder, fileName);
+
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    await photo.CopyToAsync(stream);
+                }
+
+                var carPhoto = new CarPhoto
+                {
+                    ServiceReceivedId = serviceReceivedId,
+                    PhotoPath = Path.Combine("uploads", fileName).Replace("\\", "/"),
+                    PhotoDescription = photoDescription,
+                    PhotoType = photoType,
+                    TakenBy = takenBy,
+                    FileSize = photo.Length,
+                    FileExtension = Path.GetExtension(photo.FileName),
+                    TakenDate = DateTime.Now
+                };
+
+                _context.CarPhoto.Add(carPhoto);
+                await _context.SaveChangesAsync();
+
+                // ✅ Make sure this redirects correctly
+                return RedirectToAction("Details", new { id = serviceReceivedId });
+            }
+
+            return BadRequest("No file uploaded.");
+        }
+
 
         private bool ServiceReceivedExists(int id)
         {

@@ -1,0 +1,103 @@
+﻿@model GarageServiceApp.Models.ServiceReceived
+
+@{
+    ViewData["Title"] = "Create ServiceReceived";
+}
+
+<h1 class="mb-4">Create Service Received</h1>
+
+<div class="container">
+    <form asp-action="Create">
+        <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+        <div class="row g-3">
+
+            <!-- CustomerId with + button -->
+            <div class="col-md-6">
+                <label asp-for="CustomerId" class="form-label"></label>
+                <div class="input-group">
+                    <select asp-for="CustomerId" class="form-select" asp-items="ViewBag.CustomerId"></select>
+                    <a class="btn btn-outline-secondary" href="@Url.Action("Create", "Customers")" title="Add new customer" target="_blank" style="min-width: 40px;">
+                        +
+                    </a>
+                </div>
+                <span asp-validation-for="CustomerId" class="text-danger"></span>
+            </div>
+
+            <div class="col-md-6">
+                <label asp-for="CarModel" class="form-label"></label>
+                <input asp-for="CarModel" class="form-control" />
+                <span asp-validation-for="CarModel" class="text-danger"></span>
+            </div>
+
+            <div class="col-md-6">
+                <label asp-for="LicensePlate" class="form-label"></label>
+                <input asp-for="LicensePlate" class="form-control" />
+                <span asp-validation-for="LicensePlate" class="text-danger"></span>
+            </div>
+
+            <div class="col-md-6">
+                <label asp-for="VIN" class="form-label"></label>
+                <input asp-for="VIN" class="form-control" />
+                <span asp-validation-for="VIN" class="text-danger"></span>
+            </div>
+
+            <div class="col-md-6">
+                <label asp-for="StateBeforeRepair" class="form-label"></label>
+                <input asp-for="StateBeforeRepair" class="form-control" />
+                <span asp-validation-for="StateBeforeRepair" class="text-danger"></span>
+            </div>
+
+            <div class="col-md-6">
+                <label asp-for="CustomerComplaint" class="form-label"></label>
+                <textarea asp-for="CustomerComplaint" class="form-control" rows="3"></textarea>
+                <span asp-validation-for="CustomerComplaint" class="text-danger"></span>
+            </div>
+
+            <div class="col-md-6">
+                <label asp-for="InitialDiagnosis" class="form-label"></label>
+                <textarea asp-for="InitialDiagnosis" class="form-control" rows="3"></textarea>
+                <span asp-validation-for="InitialDiagnosis" class="text-danger"></span>
+            </div>
+
+            <div class="col-md-6">
+                <label asp-for="EstimatedCost" class="form-label"></label>
+                <input asp-for="EstimatedCost" class="form-control" type="number" step="0.01" />
+                <span asp-validation-for="EstimatedCost" class="text-danger"></span>
+            </div>
+
+            @{
+                var now = DateTime.Now.ToString("yyyy-MM-ddTHH:mm");
+            }
+            <div class="col-md-6">
+                <label asp-for="ReceivedDate" class="form-label"></label>
+                @* <input asp-for="ReceivedDate" class="form-control" type="date" value="@now"/> *@
+                <input asp-for="ReceivedDate" type="datetime-local" class="form-control" value="@now" />
+
+                <span asp-validation-for="ReceivedDate" class="text-danger"></span>
+            </div>
+
+            <div class="col-md-6">
+                <label asp-for="Notes" class="form-label"></label>
+                <textarea asp-for="Notes" class="form-control" rows="3"></textarea>
+                <span asp-validation-for="Notes" class="text-danger"></span>
+            </div>
+
+            <div class="col-md-6">
+                <label asp-for="TechnicianName" class="form-label"></label>
+                <input asp-for="TechnicianName" class="form-control" />
+                <span asp-validation-for="TechnicianName" class="text-danger"></span>
+            </div>
+
+            <div class="col-12 d-flex justify-content-between mt-4">
+                <button type="submit" class="btn btn-primary">Create</button>
+                <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+            </div>
+
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+            await Html.RenderPartialAsync("_ValidationScriptsPartial");
+}

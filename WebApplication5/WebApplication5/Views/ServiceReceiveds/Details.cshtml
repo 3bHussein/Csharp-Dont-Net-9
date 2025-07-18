@@ -1,83 +1,109 @@
 ﻿@model GarageServiceApp.Models.ServiceReceived
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Service Details";
 }
 
-<h1>Details</h1>
+<h1>Service Details</h1>
 
+<!-- ✅ Service Info -->
 <div>
-    <h4>ServiceReceived</h4>
+    <h4>Service Info</h4>
     <hr />
     <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Customer)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Customer.Name)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.CarModel)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.CarModel)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.LicensePlate)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.LicensePlate)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.VIN)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.VIN)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.StateBeforeRepair)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.StateBeforeRepair)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.CustomerComplaint)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.CustomerComplaint)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.InitialDiagnosis)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.InitialDiagnosis)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.EstimatedCost)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.EstimatedCost)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.ReceivedDate)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.ReceivedDate)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Notes)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Notes)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.TechnicianName)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.TechnicianName)
-        </dd>
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Customer)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Customer.Name)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.CarModel)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.CarModel)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.LicensePlate)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.LicensePlate)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.VIN)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.VIN)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.StateBeforeRepair)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.StateBeforeRepair)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.CustomerComplaint)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.CustomerComplaint)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.InitialDiagnosis)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.InitialDiagnosis)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.EstimatedCost)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.EstimatedCost)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.ReceivedDate)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.ReceivedDate)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Notes)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Notes)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.TechnicianName)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.TechnicianName)</dd>
     </dl>
 </div>
+
+<!-- ✅ Upload Photo Form -->
+<hr />
+<h3>Upload Car Photo</h3>
+<form asp-action="UploadPhoto" asp-controller="ServiceReceiveds" enctype="multipart/form-data" method="post">
+    <input type="hidden" name="serviceReceivedId" value="@Model.Id" />
+
+    <div class="form-group">
+        <label>Photo:</label>
+        <input type="file" name="photo" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+        <label>Description:</label>
+        <input type="text" name="photoDescription" maxlength="200" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>Type:</label>
+        <select name="photoType" class="form-control" required>
+            <option>BEFORE</option>
+            <option>DURING</option>
+            <option>AFTER</option>
+            <option>DAMAGE</option>
+            <option>GENERAL</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label>Taken By:</label>
+        <input type="text" name="takenBy" maxlength="50" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-primary mt-2">Upload Photo</button>
+</form>
+
+<!-- ✅ Display Uploaded Photos -->
+@if (Model.CarPhotos?.Any() == true)
+{
+    <hr />
+    <h4>Uploaded Car Photos</h4>
+    <div class="row">
+        @foreach (var photo in Model.CarPhotos)
+        {
+            <div class="col-md-3 text-center mb-4">
+                <img src="~/@photo.PhotoPath" alt="Car Photo" class="img-thumbnail" style="max-height: 150px;" />
+                <p class="mb-0"><strong>@photo.PhotoType</strong></p>
+                <small>@photo.PhotoDescription</small><br />
+                <small>@photo.TakenBy (@photo.TakenDate.ToShortDateString())</small>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <p>No photos uploaded yet.</p>
+}
+
+<!-- ✅ Navigation -->
 <div>
     <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
     <a asp-action="Index">Back to List</a>
