@@ -1,8 +1,41 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Dashboard";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container py-4">
+    <h2 class="mb-4">Service Dashboard</h2>
+
+    <div class="row g-3">
+        <div class="col-12 col-sm-6 col-lg-4">
+            <div class="card border-0 shadow-sm h-100 text-center">
+                <div class="card-body">
+                    <i class="bi bi-grid fs-1 text-primary"></i>
+                    <h6 class="text-muted mt-2"><a href="/ServiceReceiveds">Total Services</a></h6>
+                    <div class="fw-bold display-6">@ViewBag.Total</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-4">
+            <div class="card border-0 shadow-sm h-100 text-center">
+                <div class="card-body">
+                    <i class="bi bi-calendar2 fs-1 text-success"></i>
+                    <h6 class="text-muted mt-2">Today</h6>
+                    <div class="fw-bold display-6">@ViewBag.Today</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-4">
+            <div class="card border-0 shadow-sm h-100 text-center">
+                <div class="card-body">
+                    <i class="bi bi-calendar3 fs-1 text-info"></i>
+                    <h6 class="text-muted mt-2">This Month</h6>
+                    <div class="fw-bold display-6">@ViewBag.ThisMonth</div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />

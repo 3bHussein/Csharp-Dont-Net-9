@@ -7,16 +7,20 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using GarageServiceApp.Models;
 using WebApplication5.Data;
+using WebApplication5.Helpers;
+using Microsoft.Extensions.Hosting;
 
 namespace WebApplication5.Controllers
 {
     public class ServiceDetailsController : Controller
     {
         private readonly WebApplication5Context _context;
+        private readonly IWebHostEnvironment web;
 
-        public ServiceDetailsController(WebApplication5Context context)
+        public ServiceDetailsController(WebApplication5Context context , IWebHostEnvironment web)
         {
             _context = context;
+            this.web = web;
         }
 
         // GET: ServiceDetails
@@ -57,10 +61,11 @@ namespace WebApplication5.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,ServiceReceivedId,ServiceName,Description,Price,Quantity,TotalPrice,ActualHours,Status,StartedDate,CompletedDate,TechnicianName,WorkNotes")] ServiceDetail serviceDetail)
+        public async Task<IActionResult> Create([FromForm] ServiceDetail serviceDetail)
         {
             if (ModelState.IsValid)
             {
+                serviceDetail.PhotoBefore = serviceDetail.PhotoBefore!.ConvertMainImage(web);
                 _context.Add(serviceDetail);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -76,7 +81,7 @@ namespace WebApplication5.Controllers
             {
                 return NotFound();
             }
-
+          
             var serviceDetail = await _context.ServiceDetail.FindAsync(id);
             if (serviceDetail == null)
             {
@@ -91,7 +96,7 @@ namespace WebApplication5.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,ServiceReceivedId,ServiceName,Description,Price,Quantity,TotalPrice,ActualHours,Status,StartedDate,CompletedDate,TechnicianName,WorkNotes")] ServiceDetail serviceDetail)
+        public async Task<IActionResult> Edit(int id, [FromForm] ServiceDetail serviceDetail)
         {
             if (id != serviceDetail.Id)
             {
@@ -100,8 +105,20 @@ namespace WebApplication5.Controllers
 
             if (ModelState.IsValid)
             {
+ 
                 try
                 {
+                    if (!string.IsNullOrEmpty(serviceDetail.PhotoBefore))
+                    {
+                        // you could delete the old image
+                        serviceDetail.PhotoBefore = serviceDetail.PhotoBefore!.ConvertMainImage(web);
+                    }
+                    else
+                    {
+                        var oldImage = await _context.ServiceDetail.AsNoTracking().FirstAsync(a => a.Id == id);
+                        serviceDetail.PhotoBefore = oldImage.PhotoBefore;
+                    }
+                    //serviceDetail.PhotoBefore = serviceDetail.PhotoBefore!.ConvertMainImage(web);
                     _context.Update(serviceDetail);
                     await _context.SaveChangesAsync();
                 }

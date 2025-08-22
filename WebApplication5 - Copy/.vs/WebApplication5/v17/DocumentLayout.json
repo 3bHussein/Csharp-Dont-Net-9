@@ -1,78 +1,126 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Code\\C#\\Csharp-Dont-Net-9\\WebApplication5\\",
+  "WorkspaceRootPath": "C:\\Users\\elhus\\Downloads\\WebApplication5 - Copy\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|d:\\code\\c#\\csharp-dont-net-9\\webapplication5\\webapplication5\\views\\servicereceiveds\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|solutionrelative:webapplication5\\views\\servicereceiveds\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|c:\\users\\elhus\\downloads\\webapplication5 - copy\\webapplication5\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|solutionrelative:webapplication5\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|d:\\code\\c#\\csharp-dont-net-9\\webapplication5\\webapplication5\\views\\servicedetails\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|solutionrelative:webapplication5\\views\\servicedetails\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|c:\\users\\elhus\\downloads\\webapplication5 - copy\\webapplication5\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|solutionrelative:webapplication5\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|d:\\code\\c#\\csharp-dont-net-9\\webapplication5\\webapplication5\\views\\customers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|solutionrelative:webapplication5\\views\\customers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|c:\\users\\elhus\\downloads\\webapplication5 - copy\\webapplication5\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|solutionrelative:webapplication5\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|d:\\code\\c#\\csharp-dont-net-9\\webapplication5\\webapplication5\\views\\servicedetails\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|solutionrelative:webapplication5\\views\\servicedetails\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|d:\\code\\c#\\csharp-dont-net-9\\webapplication5\\webapplication5\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|solutionrelative:webapplication5\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|d:\\code\\c#\\csharp-dont-net-9\\webapplication5\\webapplication5\\controllers\\servicedetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|solutionrelative:webapplication5\\controllers\\servicedetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|d:\\code\\c#\\csharp-dont-net-9\\webapplication5\\webapplication5\\views\\servicereceiveds\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|solutionrelative:webapplication5\\views\\servicereceiveds\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|d:\\code\\c#\\csharp-dont-net-9\\webapplication5\\webapplication5\\views\\customers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|solutionrelative:webapplication5\\views\\customers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|d:\\code\\c#\\csharp-dont-net-9\\webapplication5\\webapplication5\\migrations\\20250711160954_initialcreate_update1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|solutionrelative:webapplication5\\migrations\\20250711160954_initialcreate_update1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|d:\\code\\c#\\csharp-dont-net-9\\webapplication5\\webapplication5\\migrations\\20250711160333_initialcreate_update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|solutionrelative:webapplication5\\migrations\\20250711160333_initialcreate_update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|d:\\code\\c#\\csharp-dont-net-9\\webapplication5\\webapplication5\\migrations\\20250711151803_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|solutionrelative:webapplication5\\migrations\\20250711151803_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|d:\\code\\c#\\csharp-dont-net-9\\webapplication5\\webapplication5\\views\\customers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|solutionrelative:webapplication5\\views\\customers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|d:\\code\\c#\\csharp-dont-net-9\\webapplication5\\webapplication5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|solutionrelative:webapplication5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|d:\\code\\c#\\csharp-dont-net-9\\webapplication5\\webapplication5\\models\\servicedetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|solutionrelative:webapplication5\\models\\servicedetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|d:\\code\\c#\\csharp-dont-net-9\\webapplication5\\webapplication5\\models\\servicereceived.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|c:\\users\\elhus\\downloads\\webapplication5 - copy\\webapplication5\\models\\servicereceived.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|solutionrelative:webapplication5\\models\\servicereceived.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|d:\\code\\c#\\csharp-dont-net-9\\webapplication5\\webapplication5\\controllers\\servicereceivedscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|c:\\users\\elhus\\downloads\\webapplication5 - copy\\webapplication5\\migrations\\20250718234042_addingimages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|solutionrelative:webapplication5\\migrations\\20250718234042_addingimages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|c:\\users\\elhus\\downloads\\webapplication5 - copy\\webapplication5\\controllers\\servicereceivedscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|solutionrelative:webapplication5\\controllers\\servicereceivedscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|d:\\code\\c#\\csharp-dont-net-9\\webapplication5\\webapplication5\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|c:\\users\\elhus\\downloads\\webapplication5 - copy\\webapplication5\\reports\\report.mrt||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|solutionrelative:webapplication5\\reports\\report.mrt||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|c:\\users\\elhus\\downloads\\webapplication5 - copy\\webapplication5\\data\\webapplication5context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|solutionrelative:webapplication5\\data\\webapplication5context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|c:\\users\\elhus\\downloads\\webapplication5 - copy\\webapplication5\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|solutionrelative:webapplication5\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|c:\\users\\elhus\\downloads\\webapplication5 - copy\\webapplication5\\models\\carphoto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|solutionrelative:webapplication5\\models\\carphoto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|c:\\users\\elhus\\downloads\\webapplication5 - copy\\webapplication5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|solutionrelative:webapplication5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|c:\\users\\elhus\\downloads\\webapplication5 - copy\\webapplication5\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|solutionrelative:webapplication5\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|c:\\users\\elhus\\downloads\\webapplication5 - copy\\webapplication5\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|solutionrelative:webapplication5\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|c:\\users\\elhus\\downloads\\webapplication5 - copy\\webapplication5\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|solutionrelative:webapplication5\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|c:\\users\\elhus\\downloads\\webapplication5 - copy\\webapplication5\\views\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|solutionrelative:webapplication5\\views\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|c:\\users\\elhus\\downloads\\webapplication5 - copy\\webapplication5\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|solutionrelative:webapplication5\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|c:\\users\\elhus\\downloads\\webapplication5 - copy\\webapplication5\\views\\servicereceiveds\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|solutionrelative:webapplication5\\views\\servicereceiveds\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|c:\\users\\elhus\\downloads\\webapplication5 - copy\\webapplication5\\views\\customers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|solutionrelative:webapplication5\\views\\customers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|c:\\users\\elhus\\downloads\\webapplication5 - copy\\webapplication5\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|solutionrelative:webapplication5\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|c:\\users\\elhus\\downloads\\webapplication5 - copy\\webapplication5\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|solutionrelative:webapplication5\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|c:\\users\\elhus\\downloads\\webapplication5 - copy\\webapplication5\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|solutionrelative:webapplication5\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|c:\\users\\elhus\\downloads\\webapplication5 - copy\\webapplication5\\views\\servicedetails\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|solutionrelative:webapplication5\\views\\servicedetails\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|c:\\users\\elhus\\downloads\\webapplication5 - copy\\webapplication5\\views\\report\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|solutionrelative:webapplication5\\views\\report\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|c:\\users\\elhus\\downloads\\webapplication5 - copy\\webapplication5\\controllers\\servicedetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|solutionrelative:webapplication5\\controllers\\servicedetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|c:\\users\\elhus\\downloads\\webapplication5 - copy\\webapplication5\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|solutionrelative:webapplication5\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|d:\\code\\c#\\csharp-dont-net-9\\webapplication5\\webapplication5\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|solutionrelative:webapplication5\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|c:\\users\\elhus\\downloads\\webapplication5 - copy\\webapplication5\\views\\customers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|solutionrelative:webapplication5\\views\\customers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|c:\\users\\elhus\\downloads\\webapplication5 - copy\\webapplication5\\views\\servicereceiveds\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|solutionrelative:webapplication5\\views\\servicereceiveds\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|c:\\users\\elhus\\downloads\\webapplication5 - copy\\webapplication5\\views\\servicereceiveds\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|solutionrelative:webapplication5\\views\\servicereceiveds\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|c:\\users\\elhus\\downloads\\webapplication5 - copy\\webapplication5\\helpers\\imagehelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|solutionrelative:webapplication5\\helpers\\imagehelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|c:\\users\\elhus\\downloads\\webapplication5 - copy\\webapplication5\\views\\servicedetails\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1DEB7724-6C50-4C63-8F06-D4D063BF9C4A}|WebApplication5\\WebApplication5.csproj|solutionrelative:webapplication5\\views\\servicedetails\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -82,239 +130,378 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Code\\C#\\Csharp-Dont-Net-9\\WebApplication5\\WebApplication5\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "WebApplication5\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Code\\C#\\Csharp-Dont-Net-9\\WebApplication5\\WebApplication5\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "WebApplication5\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAADUAAAAAAAAAAADwv0AAAABaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-18T04:38:51.123Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Code\\C#\\Csharp-Dont-Net-9\\WebApplication5\\WebApplication5\\Views\\Customers\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebApplication5\\Views\\Customers\\Index.cshtml",
-              "ToolTip": "D:\\Code\\C#\\Csharp-Dont-Net-9\\WebApplication5\\WebApplication5\\Views\\Customers\\Index.cshtml",
-              "RelativeToolTip": "WebApplication5\\Views\\Customers\\Index.cshtml",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAAAFgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-18T04:44:45.216Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\Code\\C#\\Csharp-Dont-Net-9\\WebApplication5\\WebApplication5\\Views\\ServiceDetails\\Create.cshtml",
-              "RelativeDocumentMoniker": "WebApplication5\\Views\\ServiceDetails\\Create.cshtml",
-              "ToolTip": "D:\\Code\\C#\\Csharp-Dont-Net-9\\WebApplication5\\WebApplication5\\Views\\ServiceDetails\\Create.cshtml",
-              "RelativeToolTip": "WebApplication5\\Views\\ServiceDetails\\Create.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-18T08:02:40.615Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Code\\C#\\Csharp-Dont-Net-9\\WebApplication5\\WebApplication5\\Views\\ServiceDetails\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebApplication5\\Views\\ServiceDetails\\Index.cshtml",
-              "ToolTip": "D:\\Code\\C#\\Csharp-Dont-Net-9\\WebApplication5\\WebApplication5\\Views\\ServiceDetails\\Index.cshtml",
-              "RelativeToolTip": "WebApplication5\\Views\\ServiceDetails\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-18T07:48:03.791Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\Code\\C#\\Csharp-Dont-Net-9\\WebApplication5\\WebApplication5\\Views\\ServiceReceiveds\\Create.cshtml",
-              "RelativeDocumentMoniker": "WebApplication5\\Views\\ServiceReceiveds\\Create.cshtml",
-              "ToolTip": "D:\\Code\\C#\\Csharp-Dont-Net-9\\WebApplication5\\WebApplication5\\Views\\ServiceReceiveds\\Create.cshtml",
-              "RelativeToolTip": "WebApplication5\\Views\\ServiceReceiveds\\Create.cshtml",
-              "ViewState": "AgIAADwAAAAAAAAAAAAAAEkAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-18T05:14:14.611Z",
+              "Title": "ServiceReceived.cs",
+              "DocumentMoniker": "C:\\Users\\elhus\\Downloads\\WebApplication5 - Copy\\WebApplication5\\Models\\ServiceReceived.cs",
+              "RelativeDocumentMoniker": "WebApplication5\\Models\\ServiceReceived.cs",
+              "ToolTip": "C:\\Users\\elhus\\Downloads\\WebApplication5 - Copy\\WebApplication5\\Models\\ServiceReceived.cs",
+              "RelativeToolTip": "WebApplication5\\Models\\ServiceReceived.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T05:11:55.454Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Code\\C#\\Csharp-Dont-Net-9\\WebApplication5\\WebApplication5\\Views\\ServiceReceiveds\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebApplication5\\Views\\ServiceReceiveds\\Index.cshtml",
-              "ToolTip": "D:\\Code\\C#\\Csharp-Dont-Net-9\\WebApplication5\\WebApplication5\\Views\\ServiceReceiveds\\Index.cshtml",
-              "RelativeToolTip": "WebApplication5\\Views\\ServiceReceiveds\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\elhus\\Downloads\\WebApplication5 - Copy\\WebApplication5\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication5\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\elhus\\Downloads\\WebApplication5 - Copy\\WebApplication5\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebApplication5\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-18T05:09:09.477Z",
+              "WhenOpened": "2025-08-22T05:10:50.027Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\Code\\C#\\Csharp-Dont-Net-9\\WebApplication5\\WebApplication5\\Views\\Customers\\Create.cshtml",
-              "RelativeDocumentMoniker": "WebApplication5\\Views\\Customers\\Create.cshtml",
-              "ToolTip": "D:\\Code\\C#\\Csharp-Dont-Net-9\\WebApplication5\\WebApplication5\\Views\\Customers\\Create.cshtml",
-              "RelativeToolTip": "WebApplication5\\Views\\Customers\\Create.cshtml",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-18T04:50:33.303Z",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\elhus\\Downloads\\WebApplication5 - Copy\\WebApplication5\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebApplication5\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\elhus\\Downloads\\WebApplication5 - Copy\\WebApplication5\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebApplication5\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAswBcAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T05:06:42.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Report.mrt",
+              "DocumentMoniker": "C:\\Users\\elhus\\Downloads\\WebApplication5 - Copy\\WebApplication5\\Reports\\Report.mrt",
+              "RelativeDocumentMoniker": "WebApplication5\\Reports\\Report.mrt",
+              "ToolTip": "C:\\Users\\elhus\\Downloads\\WebApplication5 - Copy\\WebApplication5\\Reports\\Report.mrt",
+              "RelativeToolTip": "WebApplication5\\Reports\\Report.mrt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKtSURBVDhPldRNSBRhHAbw551xdHZsZV3ZyC00U9pNc\u002BsQ0sehj0PYIaGQwIqg0Et76WAn6dKpQ7fqFh66RCchqKCIvggTkliTbRNMWIMlXd3ZGZ2dXWf\u002BbweZwV1H2x54YQ7/5zfvvMMM45yDiGAYxnVd1x8RkYxtwhiDoiij6XT6Jue8FAgEEA6HIYoiREHgzAF1XY8zxh74fL5Kww0RwbIsGIYBSZIeZzKZEUVRFh2QMQbBGeacg3NeLlTENE2Ypgm/349SqTQYDAbvybK8d\u002BPMf4GWZWFtbQ2iKKKhoQGMsQFBEO4QkYuWgf8KYwyFQgGlUslBZSIaKBQKZ5wZFyQiEJFb9oosyxAEAXNzc0ilUtA0DZIkyZZluQfvgqhil5IkIRwOIxKJIBqNorGxcVOn6jPknGNhScO78WlMJmZg2\u002BtPU9mrcS6ICKIoAgBs4pjPmu4QAKwaJl69ncBk4iesQh5DV3px9lTPJrBshxvPUDNsd2XzRTwd\u002B4jxrz\u002BwkF3GYt7Ek2cvPXtlL6XykTnnWDFMjL34gOTMLHK5ZdiWBW05C7lWcmc8wcqtc86Ry\u002Bt4834CqZlfyKsqbNtCQVdxuDuK\u002B3dvefa2BFVtBZ\u002B\u002BJPB9egZqLgfbtmGuajjUHcHlgYvw\u002BxXPnido2zY\u002Bj39DYioFVVVBRNByC\u002BiKtONSfx9CoSYXqAqEbaIjoGJVz4OIsPTnNzpaWzA4eBWhUBMYYy5QFZhOzyPWVo\u002B\u002BE7tBpoqDB/Zj\u002BHYcO\u002BqVMqyyh63A568nMTW7gvOnY4hfO4eR4SHsCioI1Ne4y2GrAo/2xHDk2EnsbI2h/0IvutpDaAnJZUsQ1sltQSfHe2LY17YHtbIPjJV97p7Z2GXOHTKZzI1kMvmwWCxu/cv2SF1dndnZ2Rlvbm4eZYzhL7IIuTfKvFdcAAAAAElFTkSuQmCC",
+              "WhenOpened": "2025-08-22T05:01:48.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\elhus\\Downloads\\WebApplication5 - Copy\\WebApplication5\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApplication5\\appsettings.json",
+              "ToolTip": "C:\\Users\\elhus\\Downloads\\WebApplication5 - Copy\\WebApplication5\\appsettings.json",
+              "RelativeToolTip": "WebApplication5\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-19T00:48:17.683Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "20250711160954_InitialCreate_update1.cs",
-              "DocumentMoniker": "D:\\Code\\C#\\Csharp-Dont-Net-9\\WebApplication5\\WebApplication5\\Migrations\\20250711160954_InitialCreate_update1.cs",
-              "RelativeDocumentMoniker": "WebApplication5\\Migrations\\20250711160954_InitialCreate_update1.cs",
-              "ToolTip": "D:\\Code\\C#\\Csharp-Dont-Net-9\\WebApplication5\\WebApplication5\\Migrations\\20250711160954_InitialCreate_update1.cs",
-              "RelativeToolTip": "WebApplication5\\Migrations\\20250711160954_InitialCreate_update1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "ReportController.cs",
+              "DocumentMoniker": "C:\\Users\\elhus\\Downloads\\WebApplication5 - Copy\\WebApplication5\\Controllers\\ReportController.cs",
+              "RelativeDocumentMoniker": "WebApplication5\\Controllers\\ReportController.cs",
+              "ToolTip": "C:\\Users\\elhus\\Downloads\\WebApplication5 - Copy\\WebApplication5\\Controllers\\ReportController.cs",
+              "RelativeToolTip": "WebApplication5\\Controllers\\ReportController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAIAwwB0AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-11T16:09:54.397Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ServiceDetailsController.cs",
-              "DocumentMoniker": "D:\\Code\\C#\\Csharp-Dont-Net-9\\WebApplication5\\WebApplication5\\Controllers\\ServiceDetailsController.cs",
-              "RelativeDocumentMoniker": "WebApplication5\\Controllers\\ServiceDetailsController.cs",
-              "ToolTip": "D:\\Code\\C#\\Csharp-Dont-Net-9\\WebApplication5\\WebApplication5\\Controllers\\ServiceDetailsController.cs",
-              "RelativeToolTip": "WebApplication5\\Controllers\\ServiceDetailsController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwBgAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-11T16:09:35.565Z",
+              "WhenOpened": "2025-07-25T13:58:19.583Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "20250711160333_InitialCreate_update.cs",
-              "DocumentMoniker": "D:\\Code\\C#\\Csharp-Dont-Net-9\\WebApplication5\\WebApplication5\\Migrations\\20250711160333_InitialCreate_update.cs",
-              "RelativeDocumentMoniker": "WebApplication5\\Migrations\\20250711160333_InitialCreate_update.cs",
-              "ToolTip": "D:\\Code\\C#\\Csharp-Dont-Net-9\\WebApplication5\\WebApplication5\\Migrations\\20250711160333_InitialCreate_update.cs",
-              "RelativeToolTip": "WebApplication5\\Migrations\\20250711160333_InitialCreate_update.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "CarPhoto.cs",
+              "DocumentMoniker": "C:\\Users\\elhus\\Downloads\\WebApplication5 - Copy\\WebApplication5\\Models\\CarPhoto.cs",
+              "RelativeDocumentMoniker": "WebApplication5\\Models\\CarPhoto.cs",
+              "ToolTip": "C:\\Users\\elhus\\Downloads\\WebApplication5 - Copy\\WebApplication5\\Models\\CarPhoto.cs",
+              "RelativeToolTip": "WebApplication5\\Models\\CarPhoto.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAnwA4AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-11T16:03:33.508Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-23T19:02:46.762Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "20250711151803_InitialCreate.cs",
-              "DocumentMoniker": "D:\\Code\\C#\\Csharp-Dont-Net-9\\WebApplication5\\WebApplication5\\Migrations\\20250711151803_InitialCreate.cs",
-              "RelativeDocumentMoniker": "WebApplication5\\Migrations\\20250711151803_InitialCreate.cs",
-              "ToolTip": "D:\\Code\\C#\\Csharp-Dont-Net-9\\WebApplication5\\WebApplication5\\Migrations\\20250711151803_InitialCreate.cs",
-              "RelativeToolTip": "WebApplication5\\Migrations\\20250711151803_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "WebApplication5Context.cs",
+              "DocumentMoniker": "C:\\Users\\elhus\\Downloads\\WebApplication5 - Copy\\WebApplication5\\Data\\WebApplication5Context.cs",
+              "RelativeDocumentMoniker": "WebApplication5\\Data\\WebApplication5Context.cs",
+              "ToolTip": "C:\\Users\\elhus\\Downloads\\WebApplication5 - Copy\\WebApplication5\\Data\\WebApplication5Context.cs",
+              "RelativeToolTip": "WebApplication5\\Data\\WebApplication5Context.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-11T15:18:03.595Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\Code\\C#\\Csharp-Dont-Net-9\\WebApplication5\\WebApplication5\\Views\\Customers\\Edit.cshtml",
-              "RelativeDocumentMoniker": "WebApplication5\\Views\\Customers\\Edit.cshtml",
-              "ToolTip": "D:\\Code\\C#\\Csharp-Dont-Net-9\\WebApplication5\\WebApplication5\\Views\\Customers\\Edit.cshtml",
-              "RelativeToolTip": "WebApplication5\\Views\\Customers\\Edit.cshtml",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAAAEQAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-18T04:57:24.809Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ServiceDetail.cs",
-              "DocumentMoniker": "D:\\Code\\C#\\Csharp-Dont-Net-9\\WebApplication5\\WebApplication5\\Models\\ServiceDetail.cs",
-              "RelativeDocumentMoniker": "WebApplication5\\Models\\ServiceDetail.cs",
-              "ToolTip": "D:\\Code\\C#\\Csharp-Dont-Net-9\\WebApplication5\\WebApplication5\\Models\\ServiceDetail.cs",
-              "RelativeToolTip": "WebApplication5\\Models\\ServiceDetail.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-11T16:14:36.273Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Code\\C#\\Csharp-Dont-Net-9\\WebApplication5\\WebApplication5\\Program.cs",
-              "RelativeDocumentMoniker": "WebApplication5\\Program.cs",
-              "ToolTip": "D:\\Code\\C#\\Csharp-Dont-Net-9\\WebApplication5\\WebApplication5\\Program.cs",
-              "RelativeToolTip": "WebApplication5\\Program.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAiwB8AAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-11T15:14:53.606Z",
+              "WhenOpened": "2025-08-09T20:23:05.418Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\elhus\\Downloads\\WebApplication5 - Copy\\WebApplication5\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebApplication5\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\elhus\\Downloads\\WebApplication5 - Copy\\WebApplication5\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebApplication5\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAYwF8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-18T23:39:00.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20250718234042_addingImages.cs",
+              "DocumentMoniker": "C:\\Users\\elhus\\Downloads\\WebApplication5 - Copy\\WebApplication5\\Migrations\\20250718234042_addingImages.cs",
+              "RelativeDocumentMoniker": "WebApplication5\\Migrations\\20250718234042_addingImages.cs",
+              "ToolTip": "C:\\Users\\elhus\\Downloads\\WebApplication5 - Copy\\WebApplication5\\Migrations\\20250718234042_addingImages.cs",
+              "RelativeToolTip": "WebApplication5\\Migrations\\20250718234042_addingImages.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T23:40:42.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\elhus\\Downloads\\WebApplication5 - Copy\\WebApplication5\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "WebApplication5\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\elhus\\Downloads\\WebApplication5 - Copy\\WebApplication5\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "WebApplication5\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAcwB8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T20:35:38.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ServiceReceivedsController.cs",
-              "DocumentMoniker": "D:\\Code\\C#\\Csharp-Dont-Net-9\\WebApplication5\\WebApplication5\\Controllers\\ServiceReceivedsController.cs",
+              "DocumentMoniker": "C:\\Users\\elhus\\Downloads\\WebApplication5 - Copy\\WebApplication5\\Controllers\\ServiceReceivedsController.cs",
               "RelativeDocumentMoniker": "WebApplication5\\Controllers\\ServiceReceivedsController.cs",
-              "ToolTip": "D:\\Code\\C#\\Csharp-Dont-Net-9\\WebApplication5\\WebApplication5\\Controllers\\ServiceReceivedsController.cs",
+              "ToolTip": "C:\\Users\\elhus\\Downloads\\WebApplication5 - Copy\\WebApplication5\\Controllers\\ServiceReceivedsController.cs",
               "RelativeToolTip": "WebApplication5\\Controllers\\ServiceReceivedsController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-11T16:03:07.966Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ServiceReceived.cs",
-              "DocumentMoniker": "D:\\Code\\C#\\Csharp-Dont-Net-9\\WebApplication5\\WebApplication5\\Models\\ServiceReceived.cs",
-              "RelativeDocumentMoniker": "WebApplication5\\Models\\ServiceReceived.cs",
-              "ToolTip": "D:\\Code\\C#\\Csharp-Dont-Net-9\\WebApplication5\\WebApplication5\\Models\\ServiceReceived.cs",
-              "RelativeToolTip": "WebApplication5\\Models\\ServiceReceived.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-11T15:58:42.978Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Code\\C#\\Csharp-Dont-Net-9\\WebApplication5\\WebApplication5\\appsettings.json",
-              "RelativeDocumentMoniker": "WebApplication5\\appsettings.json",
-              "ToolTip": "D:\\Code\\C#\\Csharp-Dont-Net-9\\WebApplication5\\WebApplication5\\appsettings.json",
-              "RelativeToolTip": "WebApplication5\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-11T15:16:32.393Z"
+              "WhenOpened": "2025-07-19T00:08:10.254Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "D:\\Code\\C#\\Csharp-Dont-Net-9\\WebApplication5\\WebApplication5\\Models\\Customer.cs",
-              "RelativeDocumentMoniker": "WebApplication5\\Models\\Customer.cs",
-              "ToolTip": "D:\\Code\\C#\\Csharp-Dont-Net-9\\WebApplication5\\WebApplication5\\Models\\Customer.cs",
-              "RelativeToolTip": "WebApplication5\\Models\\Customer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAApAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\elhus\\Downloads\\WebApplication5 - Copy\\WebApplication5\\Views\\ServiceReceiveds\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication5\\Views\\ServiceReceiveds\\Index.cshtml",
+              "ToolTip": "C:\\Users\\elhus\\Downloads\\WebApplication5 - Copy\\WebApplication5\\Views\\ServiceReceiveds\\Index.cshtml",
+              "RelativeToolTip": "WebApplication5\\Views\\ServiceReceiveds\\Index.cshtml",
+              "ViewState": "AgIAAEIAAAAAAAAAAIBJwFQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-09T20:13:12.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\elhus\\Downloads\\WebApplication5 - Copy\\WebApplication5\\Views\\Customers\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebApplication5\\Views\\Customers\\Create.cshtml",
+              "ToolTip": "C:\\Users\\elhus\\Downloads\\WebApplication5 - Copy\\WebApplication5\\Views\\Customers\\Create.cshtml",
+              "RelativeToolTip": "WebApplication5\\Views\\Customers\\Create.cshtml",
+              "ViewState": "AgIAAEIAAAAAAAAAAIBJwCMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-19T00:44:10.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\elhus\\Downloads\\WebApplication5 - Copy\\WebApplication5\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "WebApplication5\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\elhus\\Downloads\\WebApplication5 - Copy\\WebApplication5\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "WebApplication5\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAADwvxkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-09T20:36:08.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\elhus\\Downloads\\WebApplication5 - Copy\\WebApplication5\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication5\\Program.cs",
+              "ToolTip": "C:\\Users\\elhus\\Downloads\\WebApplication5 - Copy\\WebApplication5\\Program.cs",
+              "RelativeToolTip": "WebApplication5\\Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAIBJwAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-11T15:00:34.015Z"
+              "WhenOpened": "2025-07-25T15:28:29.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\elhus\\Downloads\\WebApplication5 - Copy\\WebApplication5\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "WebApplication5\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\elhus\\Downloads\\WebApplication5 - Copy\\WebApplication5\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "WebApplication5\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-09T20:44:10.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "C:\\Users\\elhus\\Downloads\\WebApplication5 - Copy\\WebApplication5\\Views\\Account\\Logout.cshtml",
+              "RelativeDocumentMoniker": "WebApplication5\\Views\\Account\\Logout.cshtml",
+              "ToolTip": "C:\\Users\\elhus\\Downloads\\WebApplication5 - Copy\\WebApplication5\\Views\\Account\\Logout.cshtml",
+              "RelativeToolTip": "WebApplication5\\Views\\Account\\Logout.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAADwvxIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-15T05:17:36.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "C:\\Users\\elhus\\Downloads\\WebApplication5 - Copy\\WebApplication5\\Controllers\\CustomersController.cs",
+              "RelativeDocumentMoniker": "WebApplication5\\Controllers\\CustomersController.cs",
+              "ToolTip": "C:\\Users\\elhus\\Downloads\\WebApplication5 - Copy\\WebApplication5\\Controllers\\CustomersController.cs",
+              "RelativeToolTip": "WebApplication5\\Controllers\\CustomersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T00:43:25.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\elhus\\Downloads\\WebApplication5 - Copy\\WebApplication5\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "WebApplication5\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\elhus\\Downloads\\WebApplication5 - Copy\\WebApplication5\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "WebApplication5\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T20:39:48.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\elhus\\Downloads\\WebApplication5 - Copy\\WebApplication5\\Models\\User.cs",
+              "RelativeDocumentMoniker": "WebApplication5\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\elhus\\Downloads\\WebApplication5 - Copy\\WebApplication5\\Models\\User.cs",
+              "RelativeToolTip": "WebApplication5\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T20:23:38.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\elhus\\Downloads\\WebApplication5 - Copy\\WebApplication5\\Views\\ServiceDetails\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication5\\Views\\ServiceDetails\\Index.cshtml",
+              "ToolTip": "C:\\Users\\elhus\\Downloads\\WebApplication5 - Copy\\WebApplication5\\Views\\ServiceDetails\\Index.cshtml",
+              "RelativeToolTip": "WebApplication5\\Views\\ServiceDetails\\Index.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAIBZwE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-09T20:04:40.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\elhus\\Downloads\\WebApplication5 - Copy\\WebApplication5\\Views\\Report\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication5\\Views\\Report\\Index.cshtml",
+              "ToolTip": "C:\\Users\\elhus\\Downloads\\WebApplication5 - Copy\\WebApplication5\\Views\\Report\\Index.cshtml",
+              "RelativeToolTip": "WebApplication5\\Views\\Report\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-25T14:01:25.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ServiceDetailsController.cs",
+              "DocumentMoniker": "C:\\Users\\elhus\\Downloads\\WebApplication5 - Copy\\WebApplication5\\Controllers\\ServiceDetailsController.cs",
+              "RelativeDocumentMoniker": "WebApplication5\\Controllers\\ServiceDetailsController.cs",
+              "ToolTip": "C:\\Users\\elhus\\Downloads\\WebApplication5 - Copy\\WebApplication5\\Controllers\\ServiceDetailsController.cs",
+              "RelativeToolTip": "WebApplication5\\Controllers\\ServiceDetailsController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAkwBsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T00:02:12.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\elhus\\Downloads\\WebApplication5 - Copy\\WebApplication5\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "WebApplication5\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\elhus\\Downloads\\WebApplication5 - Copy\\WebApplication5\\Models\\Customer.cs",
+              "RelativeToolTip": "WebApplication5\\Models\\Customer.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAADwvw4AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T00:44:21.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\elhus\\Downloads\\WebApplication5 - Copy\\WebApplication5\\Views\\Customers\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WebApplication5\\Views\\Customers\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\elhus\\Downloads\\WebApplication5 - Copy\\WebApplication5\\Views\\Customers\\Edit.cshtml",
+              "RelativeToolTip": "WebApplication5\\Views\\Customers\\Edit.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAswE0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-19T00:50:03.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\elhus\\Downloads\\WebApplication5 - Copy\\WebApplication5\\Views\\ServiceReceiveds\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WebApplication5\\Views\\ServiceReceiveds\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\elhus\\Downloads\\WebApplication5 - Copy\\WebApplication5\\Views\\ServiceReceiveds\\Edit.cshtml",
+              "RelativeToolTip": "WebApplication5\\Views\\ServiceReceiveds\\Edit.cshtml",
+              "ViewState": "AgIAAGwAAAAAAAAAACBjwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-19T00:13:17.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ImageHelpers.cs",
+              "DocumentMoniker": "C:\\Users\\elhus\\Downloads\\WebApplication5 - Copy\\WebApplication5\\Helpers\\ImageHelpers.cs",
+              "RelativeDocumentMoniker": "WebApplication5\\Helpers\\ImageHelpers.cs",
+              "ToolTip": "C:\\Users\\elhus\\Downloads\\WebApplication5 - Copy\\WebApplication5\\Helpers\\ImageHelpers.cs",
+              "RelativeToolTip": "WebApplication5\\Helpers\\ImageHelpers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T00:09:32.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\elhus\\Downloads\\WebApplication5 - Copy\\WebApplication5\\Views\\ServiceReceiveds\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebApplication5\\Views\\ServiceReceiveds\\Create.cshtml",
+              "ToolTip": "C:\\Users\\elhus\\Downloads\\WebApplication5 - Copy\\WebApplication5\\Views\\ServiceReceiveds\\Create.cshtml",
+              "RelativeToolTip": "WebApplication5\\Views\\ServiceReceiveds\\Create.cshtml",
+              "ViewState": "AgIAAH4AAAAAAAAAACBjwIwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-18T23:55:47.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\elhus\\Downloads\\WebApplication5 - Copy\\WebApplication5\\Views\\ServiceDetails\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebApplication5\\Views\\ServiceDetails\\Create.cshtml",
+              "ToolTip": "C:\\Users\\elhus\\Downloads\\WebApplication5 - Copy\\WebApplication5\\Views\\ServiceDetails\\Create.cshtml",
+              "RelativeToolTip": "WebApplication5\\Views\\ServiceDetails\\Create.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAACBjwB4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-18T23:38:36.927Z"
             }
           ]
         }

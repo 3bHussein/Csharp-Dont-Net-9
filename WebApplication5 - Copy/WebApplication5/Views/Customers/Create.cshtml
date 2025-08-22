@@ -50,23 +50,23 @@
             @{
                 var now = DateTime.Now.ToString("yyyy-MM-ddTHH:mm");
             }
-            <div class="col-md-6">
+       @*      <div class="col-md-6">
                 <label asp-for="CreatedDate" class="form-label"></label>
                 <input asp-for="CreatedDate" type="datetime-local" class="form-control" value="@now" />
                 <span asp-validation-for="CreatedDate" class="text-danger"></span>
             </div>
+ *@
 
 
-
-            <div class="col-md-6">
+        @*     <div class="col-md-6">
                 <label asp-for="LastUpdated" class="form-label"></label>
                 <input asp-for="LastUpdated" type="date" class="form-control" />
                 <span asp-validation-for="LastUpdated" class="text-danger"></span>
-            </div>
+            </div> *@
 
             <div class="col-12">
                 <div class="form-check">
-                    <input asp-for="IsActive" class="form-check-input" />
+                    <input type="checkbox" asp-for="IsActive" class="form-check-input" />
                     <label asp-for="IsActive" class="form-check-label"></label>
                     <span asp-validation-for="IsActive" class="text-danger"></span>
                 </div>

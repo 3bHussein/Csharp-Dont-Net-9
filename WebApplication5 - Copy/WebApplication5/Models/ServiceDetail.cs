@@ -43,6 +43,9 @@ namespace GarageServiceApp.Models
         [StringLength(100)]
         public string TechnicianName { get; set; }
 
+        public string? PhotoBefore { get; set; }
+
+
         [StringLength(1000)]
         public string WorkNotes { get; set; }
 

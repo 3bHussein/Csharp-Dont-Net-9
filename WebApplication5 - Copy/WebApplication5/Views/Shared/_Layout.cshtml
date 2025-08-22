@@ -13,7 +13,7 @@
 
     <!-- Optional Bootstrap Icons -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
-
+    @RenderSection("styles",false)
 </head>
 <body>
     <header>
@@ -74,11 +74,26 @@
                     <!-- Example: right-aligned Account link -->
                     <ul class="navbar-nav mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                <i class="bi bi-person-circle"></i> Account
-                            </a>
+                            @if (!User.Identity.IsAuthenticated)
+                            {
+                                <a class="nav-link" asp-controller="Account" asp-action="Login">
+                                    <i class="bi bi-person-circle"></i> Account
+                                </a>
+                            }
+                            else
+                            {
+                                <div class="d-flex align-items-center">
+                                    <a class="nav-link" href="#">
+                                        <i class="bi bi-person-circle"></i> @User.Identity.Name
+                                    </a>
+                                    <form asp-controller="Account" asp-action="Logout" method="post" class="ms-2">
+                                        <button type="submit" class="btn btn-sm btn-outline-danger">Logout</button>
+                                    </form>
+                                </div>
+                            }
                         </li>
                     </ul>
+
                 </div>
             </div>
         </nav>
@@ -103,6 +118,7 @@
             </div>
         </div>
     </footer>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     @* <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script> *@

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Code\\C#\\Csharp-Dont-Net-9\\WebApplication5\\WebApplication5\\WebApplication5.csproj": {}
+    "C:\\Users\\elhus\\Downloads\\WebApplication5 - Copy\\WebApplication5\\WebApplication5.csproj": {}
   },
   "projects": {
-    "D:\\Code\\C#\\Csharp-Dont-Net-9\\WebApplication5\\WebApplication5\\WebApplication5.csproj": {
+    "C:\\Users\\elhus\\Downloads\\WebApplication5 - Copy\\WebApplication5\\WebApplication5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\C#\\Csharp-Dont-Net-9\\WebApplication5\\WebApplication5\\WebApplication5.csproj",
+        "projectUniqueName": "C:\\Users\\elhus\\Downloads\\WebApplication5 - Copy\\WebApplication5\\WebApplication5.csproj",
         "projectName": "WebApplication5",
-        "projectPath": "D:\\Code\\C#\\Csharp-Dont-Net-9\\WebApplication5\\WebApplication5\\WebApplication5.csproj",
+        "projectPath": "C:\\Users\\elhus\\Downloads\\WebApplication5 - Copy\\WebApplication5\\WebApplication5.csproj",
         "packagesPath": "C:\\Users\\elhus\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\C#\\Csharp-Dont-Net-9\\WebApplication5\\WebApplication5\\obj\\",
+        "outputPath": "C:\\Users\\elhus\\Downloads\\WebApplication5 - Copy\\WebApplication5\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\elhus\\Downloads\\Stimulsoft_Reports_2023.1.1_Downloadly.ir\\Stimulsoft Reports 2023.1.1\\Crack\\Libs\\Reports.NetCore": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -50,19 +51,29 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.66, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[8.0.11, )"
             },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
+            "Stimulsoft.Reports.Engine.NetCore": {
               "target": "Package",
-              "version": "[8.0.11, )"
+              "version": "[2023.1.1, )"
             },
-            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+            "Stimulsoft.Reports.Web.NetCore": {
               "target": "Package",
-              "version": "[8.0.7, )"
+              "version": "[2023.1.1, )"
             }
           },
           "imports": [

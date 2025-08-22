@@ -1,0 +1,25 @@
+﻿@model WebApplication5.ViewModels.LoginViewModel
+@{
+    ViewData["Title"] = "Login";
+    // Layout = null;
+}
+
+<form method="post" action="/Account/Login" class="p-4 border rounded shadow-sm bg-white" style="max-width: 400px; margin: 50px auto;">
+    <h3 class="text-center mb-4">Login</h3>
+
+    <div class="mb-3">
+        <input type="text" asp-for="UserName" class="form-control" placeholder="Username" />
+    </div>
+
+    <div class="mb-3">
+        <input type="password" asp-for="Password" class="form-control" placeholder="Password" />
+    </div>
+
+    <button type="submit" class="btn btn-primary w-100">Login</button>
+
+    <div class="text-center mt-3">
+        <a target="_blank" asp-controller="Account" asp-action="Register" class="btn btn-success btn-sm">
+            Register
+        </a>
+    </div>
+</form>

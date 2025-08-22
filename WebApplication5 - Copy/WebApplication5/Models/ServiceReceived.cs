@@ -14,8 +14,8 @@ namespace GarageServiceApp.Models
         [ForeignKey("CustomerId")]
         public virtual Customer? Customer { get; set; }
 
-       
-       
+        public string? PhotoAfter { get; set; }
+
 
         [Required]
         [StringLength(20)]

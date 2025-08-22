@@ -7,9 +7,11 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using GarageServiceApp.Models;
 using WebApplication5.Data;
+using Microsoft.AspNetCore.Authorization;
 
 namespace WebApplication5.Controllers
 {
+    [Authorize]
     public class CustomersController : Controller
     {
         private readonly WebApplication5Context _context;
@@ -22,7 +24,8 @@ namespace WebApplication5.Controllers
         // GET: Customers
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Customer.ToListAsync());
+            var customers = await _context.Customer.ToListAsync(); 
+            return View(customers);
         }
 
         // GET: Customers/Details/5
@@ -54,10 +57,12 @@ namespace WebApplication5.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,Email,Phone,Address,City,PostalCode,CreatedDate,LastUpdated,IsActive")] Customer customer)
+        public async Task<IActionResult> Create([FromForm] Customer customer)
         {
             if (ModelState.IsValid)
             {
+                customer.CreatedDate = DateTime.Now;
+                customer.LastUpdated = DateTime.Now;
                 _context.Add(customer);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -86,7 +91,7 @@ namespace WebApplication5.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Email,Phone,Address,City,PostalCode,CreatedDate,LastUpdated,IsActive")] Customer customer)
+        public async Task<IActionResult> Edit(int id, [FromForm] Customer customer)
         {
             if (id != customer.Id)
             {
@@ -97,6 +102,7 @@ namespace WebApplication5.Controllers
             {
                 try
                 {
+                    customer.LastUpdated = DateTime.Now;
                     _context.Update(customer);
                     await _context.SaveChangesAsync();
                 }

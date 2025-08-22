@@ -1,0 +1,18 @@
+﻿﻿@using Stimulsoft.Report.Mvc;
+
+@{
+    ViewBag.Title = "Index";
+    Layout = null;
+}
+
+
+
+@Html.StiNetCoreViewer(new StiNetCoreViewerOptions()
+{
+    Actions =
+        {
+        GetReport = "GetReport?ID="+@ViewBag.InvoiceId,
+            ViewerEvent = "ViewerEvent",
+
+        }
+})

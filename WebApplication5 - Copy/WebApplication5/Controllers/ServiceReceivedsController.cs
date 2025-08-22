@@ -7,16 +7,19 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using GarageServiceApp.Models;
 using WebApplication5.Data;
+using WebApplication5.Helpers;
 
 namespace WebApplication5.Controllers
 {
     public class ServiceReceivedsController : Controller
     {
         private readonly WebApplication5Context _context;
+        private readonly IWebHostEnvironment enviroment;
 
-        public ServiceReceivedsController(WebApplication5Context context)
+        public ServiceReceivedsController(WebApplication5Context context , IWebHostEnvironment enviroment)
         {
             _context = context;
+            this.enviroment = enviroment;
         }
 
         // GET: ServiceReceiveds
@@ -57,10 +60,11 @@ namespace WebApplication5.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,CustomerId,CarModel,LicensePlate,VIN,StateBeforeRepair,CustomerComplaint,InitialDiagnosis,EstimatedCost,ReceivedDate,Notes,TechnicianName")] ServiceReceived serviceReceived)
+        public async Task<IActionResult> Create([FromForm] ServiceReceived serviceReceived)
         {
             if (ModelState.IsValid)
             {
+                serviceReceived.PhotoAfter = serviceReceived.PhotoAfter!.ConvertMainImage(enviroment);
                 _context.Add(serviceReceived);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -91,7 +95,7 @@ namespace WebApplication5.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,CustomerId,CarModel,LicensePlate,VIN,StateBeforeRepair,CustomerComplaint,InitialDiagnosis,EstimatedCost,ReceivedDate,Notes,TechnicianName")] ServiceReceived serviceReceived)
+        public async Task<IActionResult> Edit(int id, [FromForm] ServiceReceived serviceReceived)
         {
             if (id != serviceReceived.Id)
             {
@@ -102,7 +106,17 @@ namespace WebApplication5.Controllers
             {
                 try
                 {
-                    _context.Update(serviceReceived);
+                    if (!string.IsNullOrEmpty(serviceReceived.PhotoAfter))
+                    {
+                        // you could delete the old image
+                        serviceReceived.PhotoAfter = serviceReceived.PhotoAfter!.ConvertMainImage(enviroment);
+                    }
+                    else
+                    {
+                        var oldImage = await _context.ServiceReceived.AsNoTracking().FirstAsync(a => a.Id == serviceReceived.Id);
+                        serviceReceived.PhotoAfter = oldImage.PhotoAfter;
+                    }
+                        _context.Update(serviceReceived);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
